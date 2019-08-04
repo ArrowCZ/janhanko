@@ -694,6 +694,29 @@ h3 {
 		font-weight: 800;
 	}
 
+	.product-body-info-count-row {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		margin-top: 10px;
+		
+	}
+
+	.product-body-info-count-controls {
+		color: #00AEEF;
+		font-size: 22px;
+		background: none;
+		border: none;
+		margin-left: 10px;
+		transition: 0.3s;
+	}
+	
+	.product-body-info-count-controls:hover {
+		cursor: pointer;
+		opacity: 0.5;
+	}
+
 	.product-body-info-count {
 		color: black;
 		font-size: 15px;
@@ -766,19 +789,16 @@ h3 {
 	  }
 
 	  .product-body-order-button {
-		  display: flex;
-		  justify-content: center;
-			align-items: center;
-		  border: 2px solid #00B4FF;
-		  color: #00B4FF;
-		  height: 24px;
-		  padding: 12px 48px 12px 48px;
-		  text-decoration: none;
-		  font-family: 'Barlow Condensed', sans-serif;
-		  font-weight: 600;
-		  transition: 0.3s;
-		  background: transparent;
-		  margin-top: 7px;
+		border: 2px solid #00B4FF;
+		color: #00B4FF;
+		padding: 16px 48px 16px 48px;
+		text-decoration: none;
+		font-family: 'Barlow Condensed', sans serif;
+		font-weight: 600;
+		transition: 0.3s;
+		background: transparent;
+		margin-top: 7px;
+		font-size: 16px;
 	  }
 
 	  .product-body-order-button:hover {
@@ -849,6 +869,22 @@ h3 {
 
 		.page-order-product-header {
 			height: 200px;
+		}
+
+		.page-order-product-header-delete {
+			position: absolute; top: 0px; right: 15px;
+			color: black;
+			font-family: 'Barlow Condensed', sans-serif;
+			font-size: 50px;
+			border: none;
+			background: none;
+			transition: 0.3s;
+		}
+
+		
+		.page-order-product-header-delete:hover {
+			opacity: 0.5;
+			cursor: pointer;
 		}
 
 		.page-order-product-body {
